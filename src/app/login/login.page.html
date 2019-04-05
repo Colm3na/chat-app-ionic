@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-title>LOGIN</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Login</h1>
+
+  <ion-list>
+    <ion-item>
+      <ion-icon name="mail" item-left></ion-icon>
+      <ion-input type="text" [(ngModel)]="username" placeholder="  Username or e-mail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="key" item-left></ion-icon>
+      <ion-input type="text" [(ngModel)]="password" placeholder="  Password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="login()">Login</ion-button>
+  
+  <ion-button fill="outline" href="/register" routerDirection="root">Sign Up</ion-button>
+</ion-content>

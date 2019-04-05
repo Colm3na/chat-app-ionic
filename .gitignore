@@ -27,6 +27,12 @@ platforms/
 plugins/
 plugins/android.json
 plugins/ios.json
+resources/android/icon
+resources/android/splash
+resources/ios/icon
+resources/ios/splash
+resources/splash.png
+resources/icon.png
 $RECYCLE.BIN/
 
 .DS_Store
